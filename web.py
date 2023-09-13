@@ -4,7 +4,7 @@ import pickle as pkl
 import random
 sl.header("Recommendation system using machine learning")
 
-model = pkl.load(open('/recSysMaterials/model.pkl', 'rb'))
+model = pkl.load(open('recSysMaterials/model.pkl', 'rb'))
 df_pivot_ids = pkl.load(open('recSysMaterials/df_pivot_ids.pkl', 'rb'))
 df_dup = pkl.load(open('recSysMaterials/df_dup.pkl', 'rb'))
 df_pivot_table = pkl.load(open('recSysMaterials/df_pivot_table.pkl', 'rb'))
